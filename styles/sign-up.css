@@ -1,0 +1,91 @@
+body {
+  background-color: #1a94ff;
+}
+
+#frmDangKy {
+  background: #fff;
+  padding: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 500px;
+  border-radius: 10px;
+  border: 5px solid rgb(194 196 205);
+}
+
+#frmDangKy button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: #1a94ff;
+  border: none;
+  padding: 10px;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#frmDangKy button:hover {
+  background-color: #3e7ae2;
+  transition: all 0.5s linear;
+}
+.form-control {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.375rem 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  width: 200px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  height: 16px;
+  padding: 3px 0 0 3px;
+}
+
+.border-red {
+  border: 0.1rem solid red !important;
+}
+.btn-2 {
+  float: right;
+}
+.logo {
+  text-align: center;
+}
+.padding-top {
+  padding-top: 20px;
+}
+.success {
+  height: 16px;
+  margin: 0;
+  color: #1a94ff;
+}
+.form-select {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+  -moz-padding-start: calc(0.75rem - 3px);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}

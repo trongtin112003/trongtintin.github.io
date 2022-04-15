@@ -1,0 +1,65 @@
+body {
+  background-color: #1a94ff;
+}
+
+#frmLogin {
+  background: #fff;
+  padding: 20px;
+  margin: auto;
+  width: 500px;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid rgb(194 196 205);
+}
+
+#frmLogin button {
+  background-color: #1a94ff;
+  border: none;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+}
+#frmLogin button:hover {
+  background-color: #1a94ff;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-submit {
+  width: 200px;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  height: 16px;
+  padding: 3px 0 0 3px;
+}
+
+.border-red {
+  border: 0.1rem solid red !important;
+}
+.btn-2 {
+  float: right;
+}
+.logo {
+  text-align: center;
+}
+.padding-top {
+  padding-top: 20px;
+}
+.success {
+  height: 25px;
+  margin: 0;
+  color: #1a94ff;
+  margin-bottom: 12px;
+}
+#username {
+  margin-top: 30px;
+}
